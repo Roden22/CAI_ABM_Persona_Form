@@ -77,5 +77,10 @@ namespace Personas_Form.Formulario
             fm.Show();
             this.Hide();
         }
+
+        private void ListBoxPersonas_DoubleClick(object sender, EventArgs e)
+        {
+            btnEditar_Click(sender, e);
+        }
     }
 }

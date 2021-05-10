@@ -82,6 +82,7 @@
             this.listBoxPersonas.Name = "listBoxPersonas";
             this.listBoxPersonas.Size = new System.Drawing.Size(474, 316);
             this.listBoxPersonas.TabIndex = 4;
+            this.listBoxPersonas.DoubleClick += new System.EventHandler(this.ListBoxPersonas_DoubleClick);
             // 
             // FormLista
             // 
